@@ -1,4 +1,4 @@
-streamlit==1.32.0
+streamlit==1.32.2
 requests==2.31.0
 pandas==2.1.4
 fuzzywuzzy==0.18.0
@@ -7,4 +7,3 @@ semanticscholar==1.0.5
 beautifulsoup4==4.12.2
 PySocks==1.7.1
 requests-html==0.10.0
-python-Levenshtein-wheels==0.13.0  # Alternatif yang lebih kompatibel

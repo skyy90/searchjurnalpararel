@@ -209,8 +209,9 @@ st.markdown("""
 
 # ... (CSS tetap sama seperti sebelumnya)
 
+# Ganti fungsi fuzzy_match dengan:
 def fuzzy_match(title1, title2):
-    return fuzz.token_sort_ratio(title1.lower(), title2.lower()) if title1 and title2 else 0
+    return fuzz.ratio(title1.lower(), title2.lower()) if title1 and title2 else 0
 
 
 # Fungsi untuk mengecek koneksi
