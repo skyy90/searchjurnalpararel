@@ -1,0 +1,86 @@
+{
+    "Title":{
+        "0":"MEDIC: Medical embedded device for individualized care",
+        "1":"MEDIC: a practical disease vocabulary used at the Comparative Toxicogenomics Database",
+        "2":"Medic: Towards a comprehensive framework for evaluating llms in clinical applications",
+        "3":"Brain charts for the human lifespan",
+        "4":"Diagnostic and prognostic implications of endotoxemia in critical illness: results of the MEDIC study",
+        "5":"Effect of torrefaction process parameters on biomass feedstock upgrading",
+        "6":"Short-and long-term health consequences of sleep disruption",
+        "7":"Inflammation and oxidative stress: the molecular connectivity between insulin resistance, obesity, and Alzheimer's disease",
+        "8":"Medication adherence in schizophrenia: factors influencing adherence and consequences of nonadherence, a systematic literature review",
+        "9":"Genome-wide association analyses identify new risk variants and the genetic architecture of amyotrophic lateral sclerosis"
+    },
+    "Authors":{
+        "0":"WH Wu, AAT Bui, MA Batalin, LK Au, JD Binney",
+        "1":"AP Davis, TC Wiegers, MC Rosenstein, CJ Mattingly",
+        "2":"PK Kanithi, C Christophe, MAF Pimentel",
+        "3":", P McGuire, MJ Meaney, A Mechelli, N Medic",
+        "4":"JC Marshall, D Foster, JL Vincent",
+        "5":"D Medic, M Darr, B Potter, A Shah",
+        "6":"G Medic, M Wille, MEH Hemels",
+        "7":"G Verdile, KN Keane, VF Cruzat, S Medic",
+        "8":"K Higashi, G Medic, KJ Littlewood",
+        "9":", O Harschnitz, RD Schellevis, WJ Brands, J Medic"
+    },
+    "Journal":{
+        "0":"Artificial intelligence in \u2026",
+        "1":"Database",
+        "2":"arXiv preprint arXiv \u2026",
+        "3":"Nature",
+        "4":"Journal of Infectious \u2026",
+        "5":"\u2026 , Pennsylvania, June 20 \u2026",
+        "6":"Nature and science of sleep",
+        "7":"Mediators of \u2026",
+        "8":"Therapeutic \u2026",
+        "9":"Nature \u2026"
+    },
+    "Year":{
+        "0":"2008",
+        "1":"2012",
+        "2":"2024",
+        "3":"2022",
+        "4":"2004",
+        "5":"2010",
+        "6":"2017",
+        "7":"2015",
+        "8":"2013",
+        "9":"2016"
+    },
+    "Link":{
+        "0":"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0933365707001510",
+        "1":"https:\/\/academic.oup.com\/database\/article-abstract\/doi\/10.1093\/database\/bar065\/430135",
+        "2":"https:\/\/arxiv.org\/abs\/2409.07314",
+        "3":"https:\/\/www.nature.com\/articles\/s41586-022-04554-y.",
+        "4":"https:\/\/academic.oup.com\/jid\/article-abstract\/190\/3\/527\/938989",
+        "5":"https:\/\/elibrary.asabe.org\/abstract.asp?aid=29898",
+        "6":"https:\/\/www.tandfonline.com\/doi\/abs\/10.2147\/NSS.S134864",
+        "7":"https:\/\/onlinelibrary.wiley.com\/doi\/abs\/10.1155\/2015\/105828",
+        "8":"https:\/\/journals.sagepub.com\/doi\/abs\/10.1177\/2045125312474019",
+        "9":"https:\/\/www.nature.com\/articles\/ng.3622"
+    },
+    "Source":{
+        "0":"Google Scholar",
+        "1":"Google Scholar",
+        "2":"Google Scholar",
+        "3":"Google Scholar",
+        "4":"Google Scholar",
+        "5":"Google Scholar",
+        "6":"Google Scholar",
+        "7":"Google Scholar",
+        "8":"Google Scholar",
+        "9":"Google Scholar"
+    },
+    "Relevance":{
+        "0":17,
+        "1":11,
+        "2":11,
+        "3":10,
+        "4":10,
+        "5":10,
+        "6":9,
+        "7":8,
+        "8":7,
+        "9":5
+    }
+}
