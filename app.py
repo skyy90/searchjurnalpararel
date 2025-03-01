@@ -362,8 +362,42 @@ def parallel_search(keyword, max_results, sd_key, ieee_key):
     
     return sorted(unique_refs, key=lambda x: x["Relevance"], reverse=True)[:max_results]
 
-# Antarmuka pengguna
-st.markdown("<h1 class='title'>🔍 Sistem Pencarian Referensi Jurnal Ilmiah Multi-Sumber dengan Integrasi Google Scholar, CrossRef, dan Semantic Scholar serta Peringkat Relevansi Berbasis Fuzzy Matching </h1><hr>", unsafe_allow_html=True)
+# Letakkan bagian CSS di paling atas sebelum elemen UI lainnya
+st.markdown("""
+    <style>
+        :root {
+            --primary: #6a11ff !important;
+            --secondary: #2575fc !important;
+            --accent: #ff2d55 !important;
+            --background: linear-gradient(45deg, #f3f7ff 0%, #f9fbfd 100%) !important;
+            --text: #2c3e50 !important;
+            --card-bg: rgba(255, 255, 255, 0.95) !important;
+            --shadow: 0 8px 32px rgba(31, 38, 135, 0.15) !important;
+        }
+        
+        /* Tambahkan !important untuk override style Streamlit default */
+        .title {
+            text-align: center !important;
+            background: linear-gradient(45deg, var(--primary), var(--secondary)) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            font-size: 2.5rem !important;
+            font-weight: 800 !important;
+            margin: 1.5rem 0 !important;
+            letter-spacing: -1px !important;
+            animation: float 4s ease-in-out infinite !important;
+        }
+        
+        /* Tambahkan meta viewport untuk responsif */
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </style>
+""", unsafe_allow_html=True)
+
+# Kemudian tambahkan element UI
+st.markdown("""
+    <h1 class='title'>🔍 Sistem Pencarian Referensi Jurnal Ilmiah Multi-Sumber dengan Integrasi Google Scholar, CrossRef, dan Semantic Scholar serta Peringkat Relevansi Berbasis Fuzzy Matching</h1>
+    <hr>
+""", unsafe_allow_html=True)
 
 # Sidebar
 #import streamlit as st
