@@ -210,7 +210,9 @@ st.markdown("""
 # ... (CSS tetap sama seperti sebelumnya)
 
 # Ganti fungsi fuzzy_match dengan:
+# Hapus python-Levenshtein jika ada
 def fuzzy_match(title1, title2):
+    # Gunakan ratio sederhana tanpa token sort
     return fuzz.ratio(title1.lower(), title2.lower()) if title1 and title2 else 0
 
 

@@ -2,7 +2,7 @@ streamlit==1.32.2
 requests==2.31.0
 pandas==2.1.4
 fuzzywuzzy==0.18.0
-scholarly==1.5.1  # Versi lebih stabil tanpa dependency berat
-semanticscholar==1.0.5
+scholarly==1.7.11  # Versi tertinggi yang tersedia
+semanticscholar==0.10.0  # Versi tertinggi yang tersedia
 beautifulsoup4==4.12.2
 PySocks==1.7.1
